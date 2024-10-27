@@ -1,0 +1,51 @@
+.unitSystemToggles {
+    display:flex;
+    /*background-color: #535bf2;*/
+    justify-content: space-around;
+    /*flex-grow: 1;*/
+}
+
+.systemsBanner {
+    /*background-color: white;*/
+    display:flex;
+    justify-content: space-between;
+    /*align-items: sch;*/
+}
+
+.unitSystem {
+    width: max-content;
+    justify-items: center;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button,
+.dimensionInput,
+input[type="number"] {
+    -webkit-appearance: none;
+    -moz-appearance: textfield;
+    margin: 4px;
+    text-align: right;
+}
+
+.unitToggleButton {
+    margin: 4px;
+}
+
+.verticalSeparator {
+    border-left: 2px solid #aaaaaa;
+    margin: 1rem;
+}
+
+.singleUnit {
+    width: max-content;
+}
+
+.unitConverter {
+    width: max-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
